@@ -1,0 +1,2057 @@
+/* 
+Author: Arjun Wadhwa
+Author URL: www.facebook.com/cornifus
+Version: 1.0
+Description: This website is the property of VaibhavLaxmi Exports Pvt. Ltd.
+*/
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Preloader style Begin*/
+#preloader  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fefefe;
+    z-index: 2000;
+    height: 100%;
+ }
+#status  {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -70px 0 0 -70px;
+ }
+#status img{
+	width:100%;
+}
+.loaderText{
+	color:#e31e24;
+	text-align:center;
+	font-size:20px;
+	font-weight:500;
+}
+/* Preloader style End*/
+
+.line{
+	position: absolute;
+	height: 2px;
+	width: 200px;
+	background-color: #e31e24;
+	left: 50%;
+	margin: 5px 0px 0px -100px;
+}
+.main{
+	position: relative;
+	overflow: hidden;
+}
+.subscribe{
+	position: fixed;
+	right: 0px;
+	top:130px;
+	width: 30px;
+	height: 105px;
+	background-color: #b3282d;
+	z-index: 1000;
+	border-width:3px 0px 0px 0px;
+	border-style:solid;
+	border-color:white;
+	color: white;
+	font-size: 18px;
+	font-weight: 300;
+	transition:.3s;
+}
+.subscribe:hover{
+	background-color: #cc373d;
+	cursor:pointer;
+}
+.verticalText{
+	transform: rotate(90deg);
+	padding-left:10px;
+}
+/*scroolbar style Begin*/
+::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+    background-color: white;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background-color:#e31e24;
+}
+/*scroolbar style End*/
+
+/*home style Begin */
+.home{
+	width: 100vw;
+	height: 100vh;
+	background-color: #222;
+	background-position: 50% 50%;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
+	padding: 0;
+
+}
+/* Slider style start*/
+#myCarousel, .carousel,{
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+}
+.carousel-inner{
+	height: 100vh;
+}
+.carousel-caption{
+	position: absolute;
+	text-align: right;
+	margin-right: 35px;
+	top: 65%;
+}
+/* Slider style End*/
+
+/* Navigation bar style start*/
+.navbar{
+	background-color: rgba(0,0,0,.9);
+	height: 85px;
+	width: 100%;
+	z-index: 100;
+	padding-top: 10px;
+	padding-left:10px;
+	border-width:0px 0px 2px 0px;
+	border-color: #e31e24;
+	border-style: solid;
+	border-radius: 0px;
+	margin:0px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #eeeeee;
+}
+.navbar-nav{
+	font-size:16px; 
+	color:#e31e24;
+	padding-top: 12px;
+}
+.navbar-right{
+	margin-right: 15px;
+}
+.navbar-right>li a{
+	position: relative;
+    color: #000;
+    text-decoration: none;
+    }
+.navbar-right>li a:hover{
+    color: #000;
+}
+.navbar-right>li a:before{
+	 content: "";
+  	 position: absolute;
+  	 width: 100%;
+     height: 4px;
+  	 bottom: 0;
+   	 left: 0;
+     background-color: #e31e24;
+     visibility: hidden;
+     -webkit-transform: scaleX(0);
+     transform: scaleX(0);
+     -webkit-transition: all 0.3s ease-in-out 0s;
+     transition: all 0.3s ease-in-out 0s;
+}
+.navbar-right>li a:hover:before {
+     visibility: visible;
+     -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+}
+
+/* Slider style End*/
+
+/*home style End */
+
+/*about style start*/
+.head{
+	font-family: 'Raleway', sans-serif;
+	font-size: 48px;
+	color:#fe2229;
+	z-index: 300;
+	font-weight: 400;
+}
+.subtext{
+	font-family:  'Raleway' , sans-serif;
+	font-size: 20px;
+}
+.aboutHead{
+	font-size: 48px;
+	color: #e31e24;
+	font-weight: 700;
+	text-align: center;
+}
+.aboutText{
+	font-size: 24px;
+	line-height: 22px;
+	color: black;
+	text-align: center;
+	padding:20px 0px 40px 0px;
+}
+
+.aboutIcon img{
+	width:100px;
+}
+.sectionAbout{
+	position: relative;
+	width: 100%;
+	padding:90px 0px 0px 0px;
+}
+.aboutTitle{
+	font-size: 28px;
+	padding:10px 0px;
+	font-weight:500; 
+}
+.aboutDescription{
+	font-size: 16px;
+	text-align: justify;
+	line-height: 20px;
+	font-weight:500;
+	line-height:24px;
+}
+.section1, .section2, .section3{
+	padding:35px;
+	height: 420px;
+	background-color:white;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition:.3s;
+	font-weight:700;
+}
+
+.section1{
+background-image: url("../images/section2.jpg");
+}
+.section2{
+	color:white;
+background-image: url("../images/section1.jpg");
+}
+.section3{
+	background-image: url("../images/section3.jpg");
+}
+.section1:hover, .section2:hover, .section3:hover{
+	box-shadow:0px 0px 20px black;
+	height: 425px;
+	margin-top:-5px;
+}
+
+/*about style End*/
+
+
+.sectionRawCotton{
+	background-image: url("../images/cottonBack2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	height:100vh;
+	margin: 0;
+	margin-top:90px;
+}
+
+.rawCottonHead{
+	color:white;
+	font-size:64px;
+	font-weight:700;
+	line-height:72px;
+	padding: 150px 70px 0px 50px;
+	text-align:right;
+}
+
+.rawCottonText{
+	color: white;
+	padding:30px 70px 70px 60px;
+	font-size:15px;
+	font-weight:500;
+	text-align:justify;	
+}
+.cotton-overlay {
+    background-image: url("../images/pattern1.png");
+    background-repeat: repeat;
+    height:100vh;
+    position: absolute;
+    left: 0px;
+    margin: 0;
+    width: 100%;
+    z-index: 0;
+}
+.sectionYarn{
+	padding-top:50px;
+	background-image: url("../images/yarnBack.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.yarnHead{
+	font-size:54px;
+	font-weight:700;
+	padding:80px 50px 20px 35px;
+}
+.yarnText{
+	padding:10px 50px 50px 50px;
+	font-size:16px;
+	line-height:34px;
+	text-align:justify;
+}
+.machineHead{
+	font-size:54px;
+	font-weight:700;
+	padding:80px 50px 0px 50px;
+	text-align: right;
+}
+.machinery{
+	width:100%;
+	background-color:#eeeced;
+}
+.machineAbout{
+	height: 150px;
+}
+.container-fluid{
+	margin:0;
+	padding:0;
+}
+.machine1, .machine2, .machine3, .machine4, .machine5{
+	width: 19.6%;
+	height: 450px;
+	display:-webkit-inline-box;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition:.5s;
+	margin: 0;
+}
+.machine1{
+	background-image: url("../images/m1.jpg");
+}
+.machine2{
+	background-image: url("../images/m2.jpg");
+}
+.machine3{
+	background-image: url("../images/m3.jpg");
+}
+.machine4{
+	background-image: url("../images/m4.jpg");
+}
+.machine5{
+	background-image: url("../images/m5.jpg");
+}
+.description1, .description2, .description3, .description4, .description5{
+	position: absolute;
+	height:150px;
+	width: 100%;
+	margin-top:150px;
+	padding:10px;
+	transition: .5s;
+}
+.description1{
+	background-color: rgba(0,0,0,.8);
+}
+.description2{
+	background-color: rgba(30,30,30,.8);
+}
+.description3{
+	background-color: rgba(60,60,60,.8);
+}
+.description4{
+	background-color: rgba(90,90,90,.8);
+}
+.description5{
+	background-color: rgba(120,120,120,.8);
+}
+.desHead1, .desHead2, .desHead3, .desHead4, .desHead5{
+	color:white;
+	font-size:20px;
+}
+.desDetail1, .desDetail2, .desDetail3, .desDetail4, .desDetail5{
+	color:white;
+	font-size:14px;
+	width:100%;
+}
+
+.sectionProduct{
+	padding:100px;
+	background-image: url("../images/productBack.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.productDetails{
+	text-align: left;
+	padding-top:25px;
+}
+.productTitle{
+	font-size:54px;
+	font-weight:700;
+}
+.productHead{
+	color:#e31e24;
+	font-size:24px;
+	line-height:24px;
+	font-weight:700;
+}
+.productDescription{
+	font-size:16px;
+	font-weight:500;
+
+}
+/*Services style start*/
+.sectionServices{
+	position: relative;
+	padding: 100px 0px 50px 0px;
+	background-color: #f6f6f6;
+
+}
+.process1, .process2, .process3, .process4{
+	margin-bottom: 25px;
+}
+.process{
+	width: 220px;
+	height: 220px;
+	border-radius: 220px;
+	background-color: rgba(254,34,41,.8);
+}
+.processShadow{
+	position: absolute;
+	top: -5px;
+	left: 50%;
+	margin-left: -125px;
+	width: 220px;
+	height: 220px;
+	border-radius: 220px;
+	background-image: url("../images/patternOverlay.png");
+	background-position: cover;
+	overflow: hidden;
+	z-index: -100;
+}
+.icons{
+	text-align: center;
+	padding-top: 20px;
+}
+.servicesHead{
+	font-size: 42px;
+	color: #e31e24;
+	font-weight: 700;
+	text-align: center;
+}
+.servicesText{
+	font-size: 20px;
+	line-height: 22px;
+	color: #e31e24;
+	text-align: center;
+	padding:20px 0px 40px 0px;
+}
+.title{
+	color: white;
+	font-size: 20px;
+	font-weight:500; 
+	padding-top: 5px;
+	text-align: center;
+}
+.points{
+	width: 220px;
+	padding-top: 20px;
+	color: #fe2229;
+	font-size: 16px;
+	line-height: 28px;
+	text-align: center;
+	border-width:0px 0px 1px 0px;
+	border-color:#c0c0c0;
+	border-style: solid;
+}
+/*Services style End*/
+
+/*CSR style start*/
+.sectionCSR{
+	background-color: #e31e24;
+	padding: 80px 0px 25px 0px;
+	background-image: url("../images/back.jpg");
+	background-repeat: no-repeat;
+	background-size: 450px;
+}
+.stat {
+  position:relative;
+  margin-top: 40px;
+  background-color: #e31e24;
+  text-align:center;
+  padding-bottom:20px;
+}
+.highlight {
+   color:white;
+   font-weight:bold;
+   font-size:72px;
+}
+.milestone-details {
+   font-weight:100;
+   font-size: 14px;
+   color:white;
+}
+.percentage{
+	color: white;
+	font-size: 40px;
+	font-weight: 500;
+}
+.csrText{
+	color: white;
+	font-size: 16px;
+	text-align:justify;
+}
+/* CSR style end*/
+
+/* Testimonial style start*/
+.sectionTestimonials{
+	position: relative;
+	padding: 120px 0px 25px 0px;
+	background-color: white;
+}
+.testimonialHead{
+	color: #e31e24;
+	font-size: 48px;
+	font-weight: 700;
+	text-align: left;
+}
+.testimonial1{
+	background-color: #e31e24;
+	color: white;
+	font-size: 15px;
+	font-weight: 500;
+	padding: 10px 25px;	
+	margin-bottom: 25px;
+	background-image: url("../images/back.jpg");
+	background-size:200px;
+	background-repeat:no-repeat;
+}
+.testimonialDetails{
+	display: inline-block;
+	vertical-align: baseline;
+}
+.commaRight, .commaLeft{
+	font-size: 60px;
+	color: white;
+
+}
+.commaRight{
+	float: right;
+	margin:20px 0px 20px 0px;
+}
+.commaLeft{
+	margin:20px 0px 20px 0px;
+}
+.name{
+	margin-top:40px;
+	font-size: 12px;
+	text-align: left;
+	line-height: 14px;
+}
+.bci{
+	width: 100%;
+}
+.bciImage{
+	padding: 15px 30px;
+}
+.bciImage img{
+	width: 100%;
+	margin:13px 0px;
+
+}
+.bciText1{
+	color: black;
+	font-size: 16px;
+	font-weight: 300;
+}
+.bciText2{
+	color: #e31e24;
+	font-size: 36px;
+	font-weight: 700;
+}
+.testText{
+	padding-bottom:40px;
+}
+/* Testimonial style end*/
+
+/* Contact style start*/
+.sectionContact{
+	background-image: url("../images/c2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+.contactForm{
+	padding: 25px;
+}
+.contactHead{
+	position:relative;
+	color: white;
+	padding:75px 25px 25px 25px;
+	font-weight: 700;
+	font-size: 36px;
+	text-align: center;
+}
+.contactText{
+	position: relative;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	padding-bottom:20px;
+	font-weight: 700;
+}
+.sectionContact input, .sectionContact textarea{
+	background-color: rgba(255,255,255,.7);
+	border-width: 0px 0px 0px 6px;
+	border-style: solid;
+	border-color: #e31e24;
+	outline: none;
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 200;
+	width: 100%;
+	margin: 20px 0px 0px 0px;;
+	padding:10px;
+	
+	transition:.4s;
+}
+.sectionContact input{
+	height:50px;
+}
+.sectionContact textarea{
+	height:190px;
+}
+.sectionContact button{
+	position:relative;
+	border-color: #e31e24;
+	border-width: 0px 0px 0px 6px;
+	border-style: solid;
+	padding: 10px 25px;
+	background-color:#e31e24;
+	text-align: center;
+	color: white;
+	font-size:24px;
+	margin: 15px 15px;
+	transition:.5s;
+	font-weight: 300;
+}
+.sectionContact button:hover{
+	background-color: rgba(255,255,255,.9);
+	color:#e31e24;
+}
+.contact-overlay {
+    background-image: url("../images/pattern1.png");
+    background-repeat: repeat;
+    height:100%;
+    position: absolute;
+    left: 0px;
+    margin: 0;
+    width: 100%;
+    z-index: 0;
+}
+/* Map start*/
+.contactMap{
+	margin:0px;
+}
+#map{
+    width: 100%;
+    height: 200px;
+    border-width: 0px 0px 0px 6px;
+	border-style: solid;
+	border-color: #e31e24;
+}
+/* Map End*/
+/* Contact style End*/
+
+/* Footer style start*/
+.sectionFooter{
+	position: relative;
+	background-color: #424242;
+	z-index: 500;
+	padding: 10px;
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
+.left, .right, .right a{
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+}
+/* Footer style End*/
+
+
+@media(max-width:320px){
+
+	/*home style Begin */
+
+	/* Slider style start*/
+	.carousel-caption{
+		margin-right: 0px;
+		top: 25%;
+	}
+	.carousel-caption .head{
+		font-size:32px;
+	}
+	.carousel-caption .subtext{
+		font-size:18px
+	}
+	/* Slider style End*/
+
+	/* Navigation bar style start*/
+	.navbar{
+		padding-top:5px;
+		height: 75px;
+		padding-left:0px;
+	}
+	.navbar-right{
+		background-color: rgba(0,0,0,.8);
+		margin:0;
+	}
+	.navbar-collapse{
+		border:none;
+		margin-top:10px;
+	}
+	.navbar-brand img{
+		width:180px;
+		padding-left:10px;
+	}
+	.navbar-toggle{
+		margin-top:15px;
+		margin-right:25px;
+	}
+	.navbar-right>li{
+		border-width:0px 0px .2px 0px;
+		border-style:solid;
+		border-color:#e9e9e9;
+	}
+	.navbar-right>li a{
+		color: #000;
+		text-align:center;
+		line-height:28px;
+		}
+	/* Slider style End*/
+
+	/*home style End */
+
+	/*about style start*/
+	.aboutHead{
+		font-size: 32px;
+		line-height:32px;
+		text-align: center;
+		padding-bottom:5px;
+	}
+	.aboutText{
+		width:80%;
+		margin-left:10%;
+		font-size: 18px;
+		line-height:22px;
+	}
+
+	.aboutIcon img{
+		width:60px;
+	}
+	.aboutTitle{
+		font-size: 22px;
+		padding:8px 0px;
+		font-weight:500; 
+	}
+	.aboutDescription{
+		font-size: 14px;
+		text-align: justify;
+		line-height: 24px;
+		font-weight:500;
+	}
+
+	/*about style End*/
+
+	.sectionRawCotton{
+		overflow: hidden;
+		height:120vh;
+		margin-top:70px;
+	}
+
+	.rawCottonHead{
+		font-size:32px;
+		line-height:32px;
+		padding: 85px 25px 0px 20px;
+	}
+
+	.rawCottonText{
+		padding:10px 25px 20px 25px;
+		font-size:14px;
+	}
+	.cotton-overlay {
+	    height:120vh;
+	}
+
+	.sectionYarn{
+		background-position:55% 55%;
+	}
+	.yarnHead{
+		font-size:32px;
+		line-height:32px;
+		padding:30px 0px 10px 15px;
+	}
+	.yarnText{
+		padding:10px 25px 50px 25px;
+		font-size:14px;
+		line-height:22px;
+		font-weight:500
+	}
+	.machineHead{
+		font-size:32px;
+		line-height:32px;
+		padding:80px 25px 10px 50px;
+	}
+	.machineAbout{
+		height: 150px;
+	}
+	.machine1, .machine2, .machine3, .machine4, .machine5{
+		width: 19%;
+		height: 400px;
+	}
+	.description1, .description2, .description3, .description4, .description5{
+		width:19%;
+		margin-top:150px;
+		padding:5px;
+	}
+	.desHead1, .desHead2, .desHead3, .desHead4, .desHead5{
+		color:white;
+		font-size:14px;
+	}
+	.desDetail1, .desDetail2, .desDetail3, .desDetail4, .desDetail5{
+		display:none;
+	}
+
+	.sectionProduct{
+		padding:70px 15px;
+		background-position: 55% 60%;
+		background-size:cover;
+	}
+	.productDetails{
+		text-align: left;
+		padding-top:25px;
+	}
+	.productTitle{
+		font-size:32px;
+		line-height:32px;
+	}
+	.productHead{
+		font-size:20px;
+	}
+	.productDescription{
+		font-size:16px;
+
+	}
+	/*CSR style start*/
+	.sectionCSR{
+		padding: 80px 0px 25px 0px;
+	}
+	.milestone-details {
+	   font-size: 12px;
+	   font-weight:500;
+	}
+	.percentage{
+		color: white;
+		font-size: 40px;
+		font-weight: 500;
+	}
+	.csrText{
+		font-size: 14px;
+	}
+	/* CSR style end*/
+
+	/* Testimonial style start*/
+	.sectionTestimonials{
+		padding: 80px 0px 25px 0px;
+		background-color:rgba(220,220,220,1)
+	}
+	.bci{
+		width: 100%;
+	}
+	.bciImage{
+		padding: 0px 20px 0px 11px;
+	}
+	.bciImage img{
+		width: 100%;
+		margin:13px 0px;
+	}
+	.bciText1{
+		color: black;
+		font-size: 14px;
+		font-weight: 300;
+	}
+	.testText{
+		padding-bottom:10px;
+	}
+	/* Testimonial style end*/
+
+	/* Contact style start*/
+
+	.contactForm{
+		padding: 20px;
+	}
+	.contactHead{
+		padding:70px 0px 15px 0px;
+		font-size: 24px;
+		line-height:32px;
+	}
+	.contactText{
+		font-size: 14px;
+		font-weight: 500;
+	}
+	/* Contact style End*/
+
+	.sectionFooter{
+		background-color: #424242;
+		z-index: 500;
+		padding: 10px 0px 15px 0px;
+	}
+	.left{
+		text-align: center;
+	}
+	.right{
+		text-align: center;
+	}
+}
+
+@media(max-width:480px) and (min-width:321px){
+
+	/*home style Begin */
+
+	/* Slider style start*/
+	.carousel-caption{
+		margin-right: 0px;
+		top: 35%;
+	}
+	.carousel-caption .head{
+		font-size:28px;
+	}
+	.carousel-caption .subtext{
+		font-size:18px
+	}
+	/* Slider style End*/
+
+	/* Navigation bar style start*/
+	.navbar{
+		padding-top:5px;
+		height: 75px;
+		padding-left:0px;
+	}
+	.navbar-right{
+		background-color: rgba(0,0,0,.8);
+		margin:0;
+	}
+	.navbar-collapse{
+		border:none;
+		margin-top:10px;
+	}
+	.navbar-brand img{
+		width:180px;
+		padding-left:10px;
+	}
+	.navbar-toggle{
+		margin-top:15px;
+		margin-right:25px;
+	}
+
+	.navbar-right>li{
+		border-width:0px 0px .2px 0px;
+		border-style:solid;
+		border-color:#e9e9e9;
+	}
+	.navbar-right>li a{
+		color: #000;
+		text-align:center;
+		line-height:28px;
+		}
+	/* Slider style End*/
+
+	/*home style End */
+
+	/*about style start*/
+	.aboutHead{
+		font-size: 32px;
+		line-height:32px;
+		text-align: center;
+		padding-bottom:5px;
+	}
+	.aboutText{
+		width:80%;
+		margin-left:10%;
+		font-size: 18px;
+		line-height:22px;
+	}
+
+	.aboutIcon img{
+		width:60px;
+	}
+	.aboutTitle{
+		font-size: 22px;
+		padding:8px 0px;
+		font-weight:500; 
+	}
+	.aboutDescription{
+		font-size: 16px;
+		text-align: justify;
+		line-height: 24px;
+		font-weight:500;
+	}
+
+	/*about style End*/
+
+	.sectionRawCotton{
+		overflow: hidden;
+		height:120vh;
+		margin-top:0px;
+	}
+
+	.rawCottonHead{
+		font-size:36px;
+		line-height:40px;
+		padding: 85px 35px 20px 20px;
+	}
+
+	.rawCottonText{
+		padding:0px 35px 20px 40px;
+		font-size:16px;
+	}
+	.cotton-overlay {
+	    height:120vh;
+	}
+	.sectionYarn{
+		background-position:50% 50%;
+	}
+	.yarnHead{
+		font-size:42px;
+		line-height:42px;
+		padding:30px 10px 10px 15px;
+	}
+	.yarnText{
+		padding:10px 35px 50px 25px;
+		font-size:16px;
+		line-height:22px;
+		font-weight:500
+	}
+	.machineHead{
+		font-size:32px;
+		line-height:32px;
+		padding:80px 25px 10px 50px;
+	}
+	.machineAbout{
+		height: 150px;
+	}
+	.machine1, .machine2, .machine3, .machine4, .machine5{
+		width: 19.4%;
+		height: 400px;
+	}
+	.description1, .description2, .description3, .description4, .description5{
+		position:absolute;
+		width:19.4%;
+		margin-top:150px;
+		padding:5px;
+	}
+	.desHead1, .desHead2, .desHead3, .desHead4, .desHead5{
+		color:white;
+		font-size:14px;
+	}
+	.desDetail1, .desDetail2, .desDetail3, .desDetail4, .desDetail5{
+		display:none;
+	}
+
+	.sectionProduct{
+		padding:70px 15px;
+		background-position: 55% 60%;
+		background-size:cover;
+	}
+	.productDetails{
+		text-align: left;
+		padding-top:25px;
+	}
+	.productTitle{
+		font-size:34px;
+		line-height:32px;
+	}
+	.productHead{
+		font-size:20px;
+	}
+	.productDescription{
+		font-size:16px;
+
+	}
+	/*CSR style start*/
+	.sectionCSR{
+		padding: 80px 0px 25px 0px;
+	}
+	.milestone-details {
+	   font-size: 12px;
+	   font-weight:500;
+	}
+	.percentage{
+		color: white;
+		font-size: 40px;
+		font-weight: 500;
+	}
+	.csrText{
+		font-size: 14px;
+	}
+	/* CSR style end*/
+
+	/* Testimonial style start*/
+	.sectionTestimonials{
+		padding: 80px 0px 25px 0px;
+		background-color:rgba(220,220,220,1)
+	}
+	.bci{
+		width: 100%;
+		margin-bottom:20px;
+	}
+	.bciImage{
+		padding: 0px 20px 0px 12px;
+	}
+	.bciImage img{
+		width: 100%;
+		margin:13px 0px;
+	}
+	.bciText1{
+		color: black;
+		font-size: 14px;
+		font-weight: 300;
+	}
+	.testText{
+		padding-bottom:10px;
+	}
+	/* Testimonial style end*/
+
+	/* Contact style start*/
+
+	.contactForm{
+		padding: 20px;
+	}
+	.contactHead{
+		padding:70px 0px 15px 0px;
+		font-size: 24px;
+		line-height:32px;
+	}
+	.contactText{
+		font-size: 14px;
+		font-weight: 500;
+	}
+	/* Contact style End*/
+
+	.sectionFooter{
+		background-color: #424242;
+		z-index: 500;
+		padding: 10px 0px 15px 0px;
+	}
+	.left{
+		text-align: center;
+	}
+	.right{
+		text-align: center;
+	}
+}
+
+@media(max-width:920px) and (min-width:641px){
+
+	/*about style start*/
+	.aboutHead{
+		font-size: 42px;
+		line-height:32px;
+		padding-bottom:15px;
+	}
+	.aboutText{
+		font-size: 22px;
+	}
+	.aboutIcon img{
+		width:60px;
+	}
+	.aboutTitle{
+		font-size: 24px; 
+	}
+	.aboutDescription{
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	/*about style End*/
+
+	.sectionRawCotton{
+		height:100vh;
+		margin-top:75px;
+	}
+
+	.rawCottonHead{
+		font-size:48px;
+		line-height:48px;
+		padding: 120px 40px 20px 40px;
+	}
+
+	.rawCottonText{
+		padding:0px 40px 20px 40px;
+		font-size:18px;
+		line-height:26px;
+	}
+	.cotton-overlay {
+	    height:100vh;
+	}
+	.sectionYarn{
+		background-position:65%;
+	}
+	.yarnHead{
+		font-size:52px;
+		line-height:54px;
+		padding:30px 10px 10px 15px;
+	}
+	.yarnText{
+		padding:10px 0px 50px 35px;
+		font-size:18px;
+		line-height:24px;
+		font-weight:500
+	}
+	.machineHead{
+		font-size:48px;
+		line-height:32px;
+		padding:110px 25px 20px 50px;
+	}
+	.machineAbout{
+		height: 150px;
+	}
+	.machine1, .machine2, .machine3, .machine4, .machine5{
+		width: 19.4%;
+		height: 400px;
+	}
+	.description1, .description2, .description3, .description4, .description5{
+		position:absolute;
+		width:19.4%;
+		margin-top:150px;
+		padding:5px;
+	}
+	.desHead1, .desHead2, .desHead3, .desHead4, .desHead5{
+		color:white;
+		font-size:14px;
+	}
+	.sectionProduct{
+		padding:70px 15px;
+		background-position: 55% 60%;
+		background-size:cover;
+	}
+	.productDetails{
+		text-align: left;
+		padding-top:25px;
+	}
+	.productTitle{
+		font-size:46px;
+		line-height:32px;
+		padding-left:15px;
+	}
+	.productHead{
+		font-size:20px;
+	}
+	.productDescription{
+		font-size:16px;
+
+	}
+	/*CSR style start*/
+	.sectionCSR{
+		padding: 80px 0px 25px 0px;
+	}
+	.milestone-details {
+	   font-size: 12px;
+	   font-weight:500;
+	}
+	.csrText{
+		font-size: 14px;
+	}
+	/* CSR style end*/
+
+	/* Testimonial style start*/
+	.sectionTestimonials{
+		padding: 120px 0px 25px 0px;
+		background-color:rgba(220,220,220,1)
+	}
+
+	.bci{
+		width: 100%;
+		margin-bottom:20px;
+	}
+	.bciImage{
+		padding: 0px 20px 0px 12px;
+	}
+	.bciImage img{
+		width: 100%;
+		margin:13px 0px;
+	}
+	.bciText1{
+		color: black;
+		font-size: 18px;
+		font-weight: 300;
+		padding-top:15px;
+	}
+	.testText{
+		padding-bottom:10px;
+	}
+	/* Testimonial style end*/
+
+	/* Contact style start*/
+
+	.contactForm{
+		padding: 20px;
+	}
+	.contactHead{
+		padding:70px 0px 15px 0px;
+		font-size: 24px;
+		line-height:32px;
+	}
+	.contactText{
+		font-size: 14px;
+		font-weight: 500;
+	}
+	/* Contact style End*/
+
+	.sectionFooter{
+		background-color: #424242;
+		z-index: 500;
+		padding: 10px 0px 15px 0px;
+	}
+	.left{
+		text-align: center;
+	}
+	.right{
+		text-align: center;
+	}
+}
+
+@media(max-width:640px) and (min-width:481px){
+
+	/*home style Begin */
+
+	/* Slider style start*/
+	.carousel-caption{
+		margin-right: 0px;
+		top: 35%;
+	}
+	.carousel-caption .head{
+		font-size:42px;
+	}
+	.carousel-caption .subtext{
+		font-size:18px
+	}
+	/* Slider style End*/
+
+	/* Navigation bar style start*/
+	.navbar{
+		padding-top:5px;
+		height: 75px;
+		padding-left:0px;
+	}
+	.navbar-right{
+		background-color: rgba(0,0,0,.8);
+		margin:0;
+	}
+	.navbar-collapse{
+		border:none;
+		margin-top:10px;
+	}
+	.navbar-brand img{
+		width:180px;
+		padding-left:10px;
+	}
+	.navbar-toggle{
+		margin-top:15px;
+		margin-right:25px;
+	}
+	.navbar-right>li{
+		border-width:0px 0px .2px 0px;
+		border-style:solid;
+		border-color:#e9e9e9;
+	}
+	.navbar-right>li a{
+		color: #000;
+		text-align:center;
+		line-height:28px;
+		}
+	/* Slider style End*/
+
+	/*home style End */
+
+	/*about style start*/
+	.aboutHead{
+		font-size: 32px;
+		line-height:32px;
+		text-align: center;
+		padding-bottom:5px;
+	}
+	.aboutText{
+		width:80%;
+		margin-left:10%;
+		font-size: 18px;
+		line-height:22px;
+	}
+
+	.aboutIcon img{
+		width:80px;
+	}
+	.aboutTitle{
+		font-size: 32px;
+		padding:8px 0px;
+		font-weight:500; 
+	}
+	.aboutDescription{
+		font-size: 18px;
+		text-align: justify;
+		line-height: 26px;
+		font-weight:500;
+	}
+
+	/*about style End*/
+
+	.sectionRawCotton{
+		overflow: hidden;
+		height:120vh;
+		margin-top:75px;
+	}
+
+	.rawCottonHead{
+		font-size:42px;
+		line-height:48px;
+		padding: 100px 35px 20px 20px;
+	}
+
+	.rawCottonText{
+		padding:0px 35px 20px 40px;
+		font-size:18px;
+	}
+	.cotton-overlay {
+	    height:120vh;
+	}
+	.sectionYarn{
+		background-position:40% 40%;
+	}
+	.yarnHead{
+		font-size:52px;
+		line-height:54px;
+		padding:30px 10px 10px 15px;
+	}
+	.yarnText{
+		padding:10px 35px 50px 25px;
+		font-size:18px;
+		line-height:24px;
+		font-weight:500
+	}
+	.machineHead{
+		font-size:32px;
+		line-height:32px;
+		padding:80px 25px 10px 50px;
+	}
+	.machineAbout{
+		height: 150px;
+	}
+	.machine1, .machine2, .machine3, .machine4, .machine5{
+		width: 19.4%;
+		height: 400px;
+	}
+	.description1, .description2, .description3, .description4, .description5{
+		position:absolute;
+		width:19.4%;
+		margin-top:150px;
+		padding:5px;
+	}
+	.desHead1, .desHead2, .desHead3, .desHead4, .desHead5{
+		color:white;
+		font-size:14px;
+	}
+	.desDetail1, .desDetail2, .desDetail3, .desDetail4, .desDetail5{
+		display:none;
+	}
+
+	.sectionProduct{
+		padding:70px 15px;
+		background-position: 55% 60%;
+		background-size:cover;
+	}
+	.productDetails{
+		text-align: left;
+		padding-top:25px;
+	}
+	.productTitle{
+		font-size:34px;
+		line-height:32px;
+	}
+	.productHead{
+		font-size:20px;
+	}
+	.productDescription{
+		font-size:16px;
+
+	}
+	/*CSR style start*/
+	.sectionCSR{
+		padding: 80px 0px 25px 0px;
+	}
+	.milestone-details {
+	   font-size: 12px;
+	   font-weight:500;
+	}
+	.percentage{
+		color: white;
+		font-size: 40px;
+		font-weight: 500;
+	}
+	.csrText{
+		font-size: 14px;
+	}
+	/* CSR style end*/
+
+	/* Testimonial style start*/
+	.sectionTestimonials{
+		padding: 80px 0px 25px 0px;
+		background-color:rgba(220,220,220,1)
+	}
+	.bci{
+		width: 100%;
+		margin-bottom:20px;
+	}
+	.bciImage{
+		padding: 0px 20px 0px 12px;
+	}
+	.bciImage img{
+		width: 100%;
+		margin:13px 0px;
+	}
+	.bciText1{
+		color: black;
+		font-size: 14px;
+		font-weight: 300;
+	}
+	.testText{
+		padding-bottom:10px;
+	}
+	/* Testimonial style end*/
+
+	/* Contact style start*/
+
+	.contactForm{
+		padding: 20px;
+	}
+	.contactHead{
+		padding:70px 0px 15px 0px;
+		font-size: 24px;
+		line-height:32px;
+	}
+	.contactText{
+		font-size: 14px;
+		font-weight: 500;
+	}
+	/* Contact style End*/
+
+	.sectionFooter{
+		background-color: #424242;
+		z-index: 500;
+		padding: 10px 0px 15px 0px;
+	}
+	.left{
+		text-align: center;
+	}
+	.right{
+		text-align: center;
+	}
+}
+@media(max-width:920px) and (min-width:641px){
+
+	/*about style start*/
+	.aboutHead{
+		font-size: 42px;
+		line-height:32px;
+		padding-bottom:15px;
+	}
+	.aboutText{
+		font-size: 22px;
+	}
+	.aboutIcon img{
+		width:60px;
+	}
+	.aboutTitle{
+		font-size: 24px; 
+	}
+	.aboutDescription{
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	/*about style End*/
+
+	.sectionRawCotton{
+		height:100vh;
+		margin-top:75px;
+	}
+
+	.rawCottonHead{
+		font-size:48px;
+		line-height:48px;
+		padding: 120px 40px 20px 40px;
+	}
+
+	.rawCottonText{
+		padding:0px 40px 20px 40px;
+		font-size:18px;
+		line-height:26px;
+	}
+	.cotton-overlay {
+	    height:100vh;
+	}
+	.sectionYarn{
+		background-position:65%;
+	}
+	.yarnHead{
+		font-size:52px;
+		line-height:54px;
+		padding:30px 10px 10px 15px;
+	}
+	.yarnText{
+		padding:10px 0px 50px 35px;
+		font-size:18px;
+		line-height:24px;
+		font-weight:500
+	}
+	.machineHead{
+		font-size:48px;
+		line-height:32px;
+		padding:110px 25px 20px 50px;
+	}
+	.machineAbout{
+		height: 150px;
+	}
+	.machine1, .machine2, .machine3, .machine4, .machine5{
+		width: 19.4%;
+		height: 400px;
+	}
+	.description1, .description2, .description3, .description4, .description5{
+		position:absolute;
+		width:19.4%;
+		margin-top:150px;
+		padding:5px;
+	}
+	.desHead1, .desHead2, .desHead3, .desHead4, .desHead5{
+		color:white;
+		font-size:14px;
+	}
+	.sectionProduct{
+		padding:70px 15px;
+		background-position: 55% 60%;
+		background-size:cover;
+	}
+	.productDetails{
+		text-align: left;
+		padding-top:25px;
+	}
+	.productTitle{
+		font-size:46px;
+		line-height:32px;
+		padding-left:15px;
+	}
+	.productHead{
+		font-size:20px;
+	}
+	.productDescription{
+		font-size:16px;
+
+	}
+	/*CSR style start*/
+	.sectionCSR{
+		padding: 80px 0px 25px 0px;
+	}
+	.milestone-details {
+	   font-size: 12px;
+	   font-weight:500;
+	}
+	.csrText{
+		font-size: 14px;
+	}
+	/* CSR style end*/
+
+	/* Testimonial style start*/
+	.sectionTestimonials{
+		padding: 120px 0px 25px 0px;
+		background-color:rgba(220,220,220,1)
+	}
+
+	.bci{
+		width: 100%;
+		margin-bottom:20px;
+	}
+	.bciImage{
+		padding: 0px 20px 0px 12px;
+	}
+	.bciImage img{
+		width: 100%;
+		margin:13px 0px;
+	}
+	.bciText1{
+		color: black;
+		font-size: 18px;
+		font-weight: 300;
+		padding-top:15px;
+	}
+	.testText{
+		padding-bottom:10px;
+	}
+	/* Testimonial style end*/
+
+	/* Contact style start*/
+
+	.contactForm{
+		padding: 20px;
+	}
+	.contactHead{
+		padding:70px 0px 15px 0px;
+		font-size: 24px;
+		line-height:32px;
+	}
+	.contactText{
+		font-size: 14px;
+		font-weight: 500;
+	}
+	/* Contact style End*/
+
+	.sectionFooter{
+		background-color: #424242;
+		z-index: 500;
+		padding: 10px 0px 15px 0px;
+	}
+	.left{
+		text-align: center;
+	}
+	.right{
+		text-align: center;
+	}
+}
+
+@media(max-width:1280px) and (min-width:921px){
+
+	/*about style start*/
+	.aboutHead{
+		font-size: 32px;
+		line-height:32px;
+		text-align: center;
+		padding-bottom:5px;
+	}
+	.aboutText{
+		width:80%;
+		margin-left:10%;
+		font-size: 18px;
+		line-height:22px;
+	}
+
+	.aboutIcon img{
+		width:60px;
+	}
+	.aboutTitle{
+		font-size: 24px;
+		padding:8px 0px;
+		font-weight:500; 
+	}
+	.aboutDescription{
+		font-size: 15px;
+		text-align: justify;
+		line-height: 20px;
+		font-weight:500;
+	}
+
+	/*about style End*/
+
+	.sectionRawCotton{
+		overflow: hidden;
+		height:120vh;
+		margin-top:75px;
+	}
+
+	.rawCottonHead{
+		font-size:42px;
+		line-height:48px;
+		padding: 100px 35px 20px 20px;
+	}
+
+	.rawCottonText{
+		padding:0px 35px 20px 40px;
+		font-size:18px;
+	}
+	.cotton-overlay {
+	    height:120vh;
+	}
+	.sectionYarn{
+		background-position:40% 40%;
+	}
+	.yarnHead{
+		font-size:52px;
+		line-height:54px;
+		padding:30px 10px 10px 15px;
+	}
+	.yarnText{
+		padding:10px 35px 50px 25px;
+		font-size:18px;
+		line-height:24px;
+		font-weight:500
+	}
+	.machineHead{
+		font-size:48px;
+		line-height:32px;
+		padding:120px 25px 20px 50px;
+	}
+	.machineAbout{
+		height: 150px;
+	}
+	.machine1, .machine2, .machine3, .machine4, .machine5{
+		width: 19.4%;
+		height: 400px;
+	}
+	.description1, .description2, .description3, .description4, .description5{
+		position:absolute;
+		width:19.4%;
+		margin-top:150px;
+		padding:5px;
+	}
+	.desHead1, .desHead2, .desHead3, .desHead4, .desHead5{
+		color:white;
+		font-size:20px;
+	}
+	.sectionProduct{
+		padding:70px 15px;
+		background-position: 55% 60%;
+		background-size:cover;
+	}
+	.productDetails{
+		text-align: left;
+		padding-top:25px;
+	}
+	.productTitle{
+		padding:10px 0px 0px 15px;
+		font-size:48px;
+		line-height:32px;
+	}
+	.productHead{
+		font-size:20px;
+	}
+	.productDescription{
+		font-size:16px;
+
+	}
+	/*CSR style start*/
+	.sectionCSR{
+		padding: 80px 0px 25px 0px;
+	}
+	.milestone-details {
+	   font-size: 12px;
+	   font-weight:500;
+	}
+	.percentage{
+		color: white;
+		font-size: 40px;
+		font-weight: 500;
+	}
+	.csrText{
+		font-size: 14px;
+	}
+	/* CSR style end*/
+
+	/* Testimonial style start*/
+	.sectionTestimonials{
+		padding: 80px 0px 25px 0px;
+		background-color:rgba(220,220,220,1)
+	}
+	.bci{
+		width: 100%;
+		margin-bottom:20px;
+	}
+	.bciImage{
+		padding: 0px 20px 0px 12px;
+	}
+	.bciImage img{
+		width: 100%;
+		margin:13px 0px;
+	}
+	.bciText1{
+		color: black;
+		font-size: 16px;
+		font-weight: 300;
+		padding-top:10px;
+	}
+	.testText{
+		padding-bottom:10px;
+	}
+	/* Testimonial style end*/
+
+	/* Contact style start*/
+
+	.contactForm{
+		padding: 20px;
+	}
+	.contactHead{
+		padding:70px 0px 15px 0px;
+		font-size: 24px;
+		line-height:32px;
+	}
+	.contactText{
+		font-size: 14px;
+		font-weight: 500;
+	}
+	/* Contact style End*/
+
+	.sectionFooter{
+		background-color: #424242;
+		z-index: 500;
+		padding: 10px 0px 15px 0px;
+	}
+	.left{
+		text-align: center;
+	}
+	.right{
+		text-align: center;
+	}
+}
+
+@media(min-width:1320px){	
+	.rawCottonText{
+		padding:20px 70px 20px 40px;
+		font-size:22px;
+	}
+	.sectionYarn{
+		background-position:40% 40%;
+	}
+	.yarnHead{
+		font-size:60px;
+		line-height:54px;
+		padding:30px 10px 20px 15px;
+	}
+	.yarnText{
+		padding:10px 35px 50px 35px;
+		font-size:22px;
+		line-height:36px;
+		font-weight:500
+	}
+	.machineHead{
+		font-size:60px;
+		line-height:72px;
+		padding:120px 25px 20px 50px;
+	}
+	.machineAbout{
+		height: 150px;
+	}
+	.machine1, .machine2, .machine3, .machine4, .machine5{
+		width: 19.8%;
+		height: 500px;
+	}
+	.description1, .description2, .description3, .description4, .description5{
+		position:absolute;
+		width:100%;
+		margin-top:150px;
+		padding:5px;
+	}
+	.desHead1, .desHead2, .desHead3, .desHead4, .desHead5{
+		color:white;
+		font-size:20px;
+	}
+	.sectionProduct{
+		padding:80px 15px;
+		background-position: 55% 60%;
+		background-size:cover;
+	}
+	.productDetails{
+		text-align: left;
+		padding-top:25px;
+	}
+	.productTitle{
+		padding:10px 0px 0px 15px;
+		font-size:60px;
+		line-height:72px;
+	}
+	.productHead{
+		font-size:28px;
+	}
+	.productDescription{
+		font-size:20px;
+
+	}
+	/*CSR style start*/
+	.sectionCSR{
+		padding: 80px 0px 25px 0px;
+	}
+	.milestone-details {
+	   font-size: 16px;
+	   font-weight:500;
+	}
+	.percentage{
+		color: white;
+		font-size: 40px;
+		font-weight: 500;
+	}
+	.csrText{
+		font-size: 18px;
+	}
+	/* CSR style end*/
+
+	/* Testimonial style start*/
+	.sectionTestimonials{
+		padding: 120px 0px 25px 0px;
+		background-color:rgba(220,220,220,1)
+	}
+	.bci{
+		width: 100%;
+		margin-bottom:20px;
+	}
+	.bciImage{
+		padding: 0px 20px 0px 12px;
+	}
+	.bciImage img{
+		width: 100%;
+		margin:13px 0px;
+	}
+	.bciText1{
+		color: black;
+		font-size: 16px;
+		font-weight: 300;
+		padding-top:10px;
+	}
+	.testText{
+		padding-bottom:10px;
+	}
+	/* Testimonial style end*/
+
+	/* Contact style start*/
+
+	.contactForm{
+		padding: 20px;
+	}
+	.contactHead{
+		padding:70px 0px 15px 0px;
+		font-size: 24px;
+		line-height:32px;
+	}
+	.contactText{
+		font-size: 14px;
+		font-weight: 500;
+	}
+	/* Contact style End*/
+
+	.sectionFooter{
+		background-color: #424242;
+		z-index: 500;
+		padding: 10px 0px 15px 0px;
+	}
+	.left{
+		text-align: center;
+	}
+	.right{
+		text-align: center;
+	}
+}
